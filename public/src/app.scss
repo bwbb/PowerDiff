@@ -1,0 +1,27 @@
+
+@import 'setup';
+
+
+@mixin git-repo-loaded {
+    opacity: 1;
+    cursor: default;
+    background-color: $secondary-color;
+}
+.sticky-container {
+    height: 4em;
+}
+.sticky {
+    width: 100%;
+}
+
+button#gitRepoBtn {
+    margin: 0px;
+}
+
+div#main {
+    padding: 1.5rem;
+}
+
+button#gitRepoBtn:disabled {
+    @include git-repo-loaded;
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <title>PowerDiff</title>
+        <link rel="stylesheet" type="text/css" href="assets/app.css" />
+        <script type="text/javascript" src="assets/vendor.js"></script>
+        <script type="text/javascript" src="assets/app.js"></script>
+    </head>
+
+    <body id="body">
+        <div data-sticky-container class="sticky-container">
+            <div  class="sticky is-stuck is-at-top" data-sticky data-options="marginTop:0;">
+                <div class="top-bar">
+                    <div class="top-bar-title">
+                        <input style="display:none;" id="fileDialog" nwdirectory type="file" />
+                        <button type="button" id="gitRepoBtn" class="button">Open Git Repository</button>
+                    </div>
+                    <div id="responsive-menu">
+                        <div class="top-bar-left">
+                        <ul class="dropdown menu" data-dropdown-menu>
+                            <li>
+                                <a href="#" id="baseBranchBtn">Base: </a>
+                                <ul class="menu vertical" id="baseBranches">
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" id="compareBranchBtn">Compare: </a>
+                                <ul class="menu vertical" id="compareBranches">
+                            </li>
+                        </ul>
+                        </div>
+                        <div class="top-bar-right">
+                        <ul class="menu">
+                            <li><input type="search" placeholder="Search"></li>
+                            <li><button type="button" class="button">Search</button></li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="columns large-12 medium-12" id="main">
+
+
+
+            </div>
+        </div>
+    </body>
+</html>
