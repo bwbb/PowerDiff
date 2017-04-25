@@ -1,0 +1,36 @@
+{
+  "name": "powerdiff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/www/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "window": {
+    "toolbar": true,
+    "width": 1200,
+    "height": 500
+  },
+  "chromium-args": "--enable-logging=stderr",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^2.2.2",
+    "diff2html": "^2.3.0",
+    "foundation-sites": "^6.3.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-js-wrapper": "0.0.3",
+    "gulp-uglify": "^2.1.2",
+    "jquery": "^3.2.1",
+    "q": "^1.5.0",
+    "run-sequence": "^1.2.2",
+    "simple-git": "^1.70.0",
+    "streamqueue": "^1.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-sass": "^3.1.0"
+  }
+}

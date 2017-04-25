@@ -1,6 +1,6 @@
 
 node_modules
-package.json
+
 
 public/www/assets/*.css
 public/www/assets/*.js
