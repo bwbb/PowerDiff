@@ -29,6 +29,10 @@ window.onload = function() {
             });
 
     }
+
+    $('#hideImportsBtn').click(function() {
+
+    });
 }; // window.onload
 
 
@@ -76,7 +80,7 @@ function getBranchDiff( diffConfig ) {
             'diff',
             diffOption
         ], function( err, diffResult ) {
-            console.log('error', err);
+            if ( err ) console.log('error', err);
             deferred.resolve( diffResult );
         });
     
